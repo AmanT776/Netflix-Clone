@@ -2,7 +2,7 @@
 
 A fully responsive Netflix Clone built using React.js with Firebase authentication. This project includes a homepage, a login page, and a player page to simulate streaming functionality. It uses the TMDB API to fetch movie banners and trailers.
 
-Features
+## Features
 
 Homepage: Displays a collection of movies and TV shows with a user-friendly UI.
 
@@ -25,3 +25,5 @@ Data Storage: Firebase Firestore
 Movie API: TMDB API
 
 Deployment: Netlify
+
+netlify link: https://curious-figolla-ff837d.netlify.app/
