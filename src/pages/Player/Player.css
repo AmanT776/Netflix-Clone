@@ -26,3 +26,15 @@
     justify-content: space-between;
     width: 90%;
 }
+@media(max-width: 600px){
+    .player{
+        justify-content: center;
+    }
+    .player-frame{
+        height: 50%;
+    }
+    .video-info{
+        margin-top: 5px;
+        font-size: .5rem;
+    }
+}

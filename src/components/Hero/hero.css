@@ -56,5 +56,13 @@
     background: #6d6d6e66;
 }
 @media(max-width: 600px){
-    
+    .hero-caption{
+        width: 80%;
+        padding: 30px;
+        transform: translateY(-60px);
+    }
+    .banner-img{
+        transform: translateX(20px);
+    }
+
 }

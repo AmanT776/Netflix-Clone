@@ -13,6 +13,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 50px;
+    font-size: 0.85rem;
 }
 .navbar-left img{
     width: 110px;
@@ -77,5 +78,12 @@ nav{
     }
     .navbar-right{
         gap: 10px;
+    }
+    .icon{
+        font-size: 1rem;
+        padding-right: 20px;
+    }
+    .dropdown{
+        font-size: 0.7rem;
     }
 }

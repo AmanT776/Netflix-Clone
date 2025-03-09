@@ -30,9 +30,9 @@ export default function Player(){
             <i className="back-btn fa-solid fa-circle-arrow-left" onClick={()=>{navigate('/')}}></i>
             <iframe className='player-frame' src={`https://www.youtube.com/embed/${apiData.key}`} frameBorder={0} allowFullScreen ></iframe>
             <div className="player-info">
-                <p>Date: {apiData.published_at.slice(0,10)}</p>
-                <p>{apiData.name}</p>
-                <p>Type: {apiData.type}</p>
+                <p className="video-info">Date: {apiData.published_at.slice(0,10)}</p>
+                <p className="video-info">{apiData.name}</p>
+                <p className="video-info">Type: {apiData.type}</p>
             </div>
         </div>
     )

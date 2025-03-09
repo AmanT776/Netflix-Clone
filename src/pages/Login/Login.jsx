@@ -29,7 +29,7 @@ export default function Login(){
     
 }
     return(
-        loading? <div className="loading-div">
+        loading ? <div className="loading-div">
         <img src={loadingGear} alt="" />
     </div>:
         <div className="login">
